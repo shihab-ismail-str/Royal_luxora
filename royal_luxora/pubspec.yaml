@@ -1,0 +1,36 @@
+name: royal_luxora
+description: Royal Luxora - Luxury Fashion Store
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.3.1  
+  google_fonts: ^8.0.2
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/woman/Dress/
+    - assets/images/woman/TOP/
+    - assets/images/woman/footwear/
+    - assets/images/woman/outware/
+    - assets/images/Man/SUITES/
+    - assets/images/Man/SHIRTS/
+    - assets/images/Man/Shoes/
+    - assets/images/Man/trousers/
+    - assets/images/Accessories/Bag/
+    - assets/images/Accessories/Belts/
+    - assets/images/Accessories/Scarves/
+    - assets/images/Accessories/Watches/
